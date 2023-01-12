@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">YSM</a>
+            </div>
+            <nav id="nav center">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <!-- <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li> -->
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Analista de Datos, Programador</h1>
+            <h2>Yunio Seijo Manso</h2>
+            <!-- <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Yunio Seijo Manso.</span>
+                Soy ingeniero de software, desarrollador con experiencia en desarrollo de aplicaciones web
+                 utilizando tecnologías como JavaScript, ReactJS, Python, Django, HTML, CSS, Bootstrap, PHP, PostgreSQL, Git y metodologías ágiles como Scrum,
+                  estoy interesado en el diseño, usabilidad y experiencia de usuario. Muy interesado en Inteligencia Artificial,
+                   Machine Learning, Estadística y Minería de Datos. Me apasiona resolver problemas de la vida real y
+                    extraer información valiosa de los datos. Me gusta colaborar con mis compañeros y disfruto mucho mi trabajo.
+                    Me gusta estudiar y aprender nuevas tecnologías. Me gusta practicar deportes, viajar y compartir con mi familia y amigos.
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-11-1991
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 632 033 456
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            yunioseijo@gmail.com
+                        </li>
+                    
+                        <!-- <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li> -->
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>código</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                       <div class="interes">
+                        <i class="fa-solid fa-mountain-sun"></i>
+                            <span>Naturaleza</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chart-column"></i>
+                            <span>Datos</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button id="descargar_cv">
+                <a href="https://github.com/yunioseijo/yunioseijo/raw/main/Yunio%20Seijo%20CV%20Esp.pdf"
+                download>
+                Descargar CV <i class="fa-solid fa-download"></i>
+              </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ReactJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupal</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño y Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Investigación y Desarrollo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Negociación y manejo de conflictos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pensamiento crítico y resolutivo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda education">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Máster en Economía, Finanzas y Computación</h4>
+                        <span class="casa">Universidad International de Andalucía, España.</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>
+                            <span>Conocimientos adquiridos.</span>
+                            Series de tiempo: Estacionariedad, Raíces unitarias y cointegración, causalidad, análisis de integración en datos de panel, cambios estructurales y no linealidad, cointegración y datos de panel. Minería de datos: Análisis de componentes principales y análisis factorial, Modelos de elección discreta binarios y modelos de elección discreta multinomial, modelos de regresión lineal. Técnicas de aprendizaje automático con redes neuronales de diferentes arquitecturas como convolucionales, recurrentes LSTM y densas.
+                            </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Grado en Ingeniería Informática</h4>
+                        <span class="casa">Universidad Central Marta Abreu de las Villas, Cuba.</span>
+                        <span class="fecha">2010 - 2015</span>
+                        <p>
+                            <span>Conocimientos adquiridos.</span>
+
+                            Ingeniería y gestión de software, matemáticas, algoritmos, programación orientada a objetos con lenguaje principal Java, programación web con PHP, JavaScript, HTML y CSS, sistemas de base de datos (PostgreSQL, SQLServer, MySQL), máquinas computadoras, comercio electrónico (Wordpress Drupal, Joomla), ética informática, problemas sociales de la ciencia y la tecnología, inteligencia artificial, data warehouse, ERP, teleinformática, arquitectura de máquinas, contabilidad y finanzas.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq coursera">
+                        <h4>Cursos de Coursera</h4>
+                        
+                        <ul>
+                            <li>
+                                Tools for Data Science. <span>(IBM Skills Network)</span></li>
+                            <li><a href="https://coursera.org/share/21af20416827be0c2fee48b9470cbf5c">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization. </a><span>(DeepLearning.AI)</span></li>
+                            <li><a href="https://coursera.org/share/eceb8a65040a8bd1c9c130d67b4d614f">Neural Networks and Deep Learning. </a> <span>(DeepLearning.AI)</span></li>
+                            <li><a href="https://coursera.org/share/56c4bedbf95f2659a015989a2812fd02">Inglés Empresarial: Gestión y Liderazgo. </a><span>(Arizona State University)</span></li>
+                            <li><a href="https://coursera.org/share/436f1e2a7277cec3b4ce47ccc2f2d03c">Python Data Structures. </a><span>(University of Michigan)</span></li>
+                        </ul>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha work-experience">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Inversión y Trading</h4>
+                        <span class="casa">Cuenta Propia</span>
+                        <span class="fecha">2019-2020</span>
+                        <p>Diseño e implementación de indicadores y estrategias utilizando como lenguaje pinescript4. Backtesting y análisis de métricas de rendimiento de las estrategias, gestión de riesgo y capital. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Desarrollador web FreeLancer</h4>
+                        <span class="casa">Cuenta Porpia</span>
+                        <span class="fecha">2018-2019</span>
+                        <p>
+                            Mi experiencia en el desarrollo web: crear sitios webs con las especificaciones brindadas por un diseñador (maquetar la forma y efectos visuales del sitio web con HTML, CSS y Java-Script) con el objetivo de hacerlo atractivo y fácil de usar para los usuarios. Creación de nuevos temas y plugins para wordpress aportando así mayor funcionalidad y flexibilidad para mostrar el contenido. Solucionar problemas referentes a la seguridad y configuración del sitio, dar soporte al sitio web y despliegue en CPanel, agregar funcionalidades al sitio con PHP y Java-Script.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Administrador de redes de Computadoras</h4>
+                        <span class="casa">Universidad Central Marta Ábreu de las Villas, Santa Clara.</span>
+                        <span class="fecha">2015-2018</span>
+                        <p>
+                            Mi experiencia como administrador de redes de computadoras: instalación y configuración de sistemas operativos como Windows Server, Debian, pfSense. Virtualización utilizando Proxmox, manejo de usuarios con LDAP, diseño e implantación de redes de computadoras. Configuración de routers y switches. Diseño e implantación de políticas de seguridad informática. Administración y mantenimiento de los sitios web institucionales. Atención y asesoramiento informático a profesores y estudiantes.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills habilidades">
+        <div class="contenido-seccion col ">
+            
+            <h1>Habilidades</h1>
+            <ul>
+                <li>Programación en <span>Java</span> para aplicaciones de Desktop.</li>
+                <li>Análisis de datos usando <span>Stata</span>, <span>Watson Studio</span>, <span>Python</span> con: <span>Pandas</span>, <span>Numpy</span>, <span>Seaborn</span>, <span>Sklearn</span>, <span>Matplotlib</span>.</li>
+                <li>Instalación y configuración de sistemas operativos dedicados a servidores</li>
+                <li>Conocimientos sólidos de <span>HTML</span>, <span>CSS</span> y <span>JavaScript</span>.</li>
+                <li>Conocimientos de diseño bases de datos y sistemas gestión de bases de datos relacionales, <span>MySQL</span>, <span>PostgreSQL</span>, <span>SQLServer</span>.</li>
+                <li>Desarrollo de sitios Web usando <span>Python</span> y <span>Django</span> como framework.</li>
+                <li>Desarrollo de sitios Web usando <span>PHP</span> y <span>Symfony</span> como framework.</li>
+            </ul>
+        </div>
+        <div class="contenido-seccion col ">
+            
+            <h1>Aptitudes</h1>
+            <ul>
+                <li>Proactivo y resolutivo.</li>
+                <li>Trabajo en equipo y comunicación.</li>
+                <li>Alta capacidad de aprendizaje.</li>
+                <li>Capacidad analítica y de toma de decisiones.</li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Barchilon.png" alt="">
+                    <div class="overlay">
+                        <h3>Implementación</h3>
+                        <p>
+                          PHP,HTML,CSS,JavaScript  
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <img src="img/EvasionUSA.png" alt="">
+                    <div class="overlay">
+                        <h3>Implementación</h3>
+                        <p>
+                          PHP,HTML,CSS,JavaScript  
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Valdes.png" alt="">
+                    <div class="overlay">
+                        <h3>Implementación</h3>
+                        <p>
+                          PHP,HTML,CSS,JavaScript  
+                        </p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Chile.png" alt="">
+                    <div class="overlay">
+                        <h3>Implementación</h3>
+                        <p>
+                          PHP,HTML,CSS,JavaScript  
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+<!--     
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila"> -->
+                <!-- Formulario -->
+                <!-- <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div> -->
+                <!-- Mapa -->
+                <!-- <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="skills">
+        <div class="contenido-seccion">
+            <h2>Nuevas Secciones en Camino.</h2>
+        </div>
+        
+        </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <!-- <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
