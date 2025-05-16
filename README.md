@@ -21,11 +21,13 @@ Actualmente busco contribuir en **proyectos innovadores** donde pueda seguir cre
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 
 ### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+
 
 ### Bases de datos
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
@@ -47,13 +49,27 @@ Actualmente busco contribuir en **proyectos innovadores** donde pueda seguir cre
 
 ## 💼 Experiencia Profesional
 
-### Lead Frontend Architect | Resqtime
-**Madrid, España | 2023 - 2024**
+### Full-Stack Developer | Resqtime  
+**Madrid, España | Ago 2023 – Nov 2024**
 
-- Migración de AngularJS a **Angular 18** mejorando UX y rendimiento
-- Implementación de **CI/CD** reduciendo tiempo de despliegue
-- Desarrollo de APIs en **C#** y gestión DevOps con **Azure** y **Kubernetes**
+- Migración completa de AngularJS a **Angular 18** con Signals y Deferrable Views.
+- Rediseño UI/UX modular, reactiva y optimizada.
+- Desarrollo de APIs en **C#**, automatización CI/CD y despliegue en **Azure + Kubernetes**.
+  
+### Backend Developer | Proyecto Java con PostgreSQL  
+**Remoto | Nov 2020 – Ago 2022**
 
+- Desarrollo de microservicios en **Java + Spring Boot**.
+- Modelado y consultas avanzadas en **PostgreSQL**.
+- Autenticación JWT, diseño REST y arquitectura limpia.
+
+### Frontend Web Developer (Freelance) | JYD Solutions  
+**Cuba | Abr 2016 – Oct 2020**
+
+- Desarrollo de sitios en WordPress, PHP, JS y Shopify.
+- Creación de plugins, personalización de temas, optimización SEO y despliegues en CPanel.
+- Automatización con Git y soporte integral al cliente.
+  
 ### Investigador en Machine Learning | UNIA
 **Huelva, España | 2022**
 
