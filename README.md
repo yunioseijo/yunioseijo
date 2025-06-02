@@ -6,9 +6,12 @@
 
 ## 🚀 Sobre mí
 
-> Ingeniero de Software con +4 años de experiencia, especializado en **Frontend con Angular** y bases sólidas en **Backend con Python, C# y Node**. Lead Frontend Architect con enfoque en arquitectura escalable, CI/CD y experiencia de usuario.
-
-Actualmente busco contribuir en **proyectos innovadores** donde pueda seguir creciendo como **Fullstack Developer** y aportar mi experiencia en **arquitectura frontend, automatización y optimización de procesos**.
+> Soy Ingeniero de Software Full-Stack con más de 4 años de experiencia en desarrollo de aplicaciones web y soluciones tecnológicas. Especializado en Frontend con **Angular (hasta versión 19)**, incluyendo experiencia
+ avanzada en técnicas de rendering como **SSR, SSG y Hydration**, además de testing con **Karma y Jasmine** para asegurar calidad en los productos.
+Poseo experiencia sólida en Backend con **Python, Java, C# y Node.js**, y dominio de control de versiones con **Git**, incluyendo flujos de trabajo colaborativos y ramificación (branching strategies). Trabajo
+con metodologías ágiles, principalmente **Scrum**, usando herramientas de gestión como **Jira** para organización y seguimiento de tareas.
+Mi enfoque combina: Buenas prácticas de desarrollo **(Clean Code, SOLID, patrones de diseño)**; Cultura DevOps **(CI/CD, monitorización en Kubernetes, Azure Pipelines)**; y formación avanzada en **Machine
+Learning y análisis de datos**, aplicando técnicas de predicción y modelado estadístico en proyectos reales.
 
 ## 🛠️ Tech Stack
 
